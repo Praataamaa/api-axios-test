@@ -1,21 +1,19 @@
 {
-  "name": "api-tama-axios",
+  "name": "api-axios-javascript",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "test": "mocha --require ts-node/register test/**/*.spec.ts"
+    "test": "mocha test/ --reporter mochawesome"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/chai": "^4.3.5",
-    "@types/mocha": "^10.0.1",
+  "dependencies": {
     "axios": "^1.4.0",
     "chai": "^4.3.7",
     "mocha": "^10.2.0",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.0.4"
+    "mochawesome": "^7.1.3"
   }
 }
