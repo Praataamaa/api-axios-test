@@ -1,5 +1,9 @@
 # Api Automation
-This repo for API Automation using axios, mocha, chai, and mochawesome
+This repo for API Automation using
+Axios framework,
+Mocha library,
+Typescript language,
+Mochawesome report
 
 ## First time clone
 ```bash
